@@ -10,12 +10,11 @@ class Slider extends Component {
             return <Image src={image} fluid />
         } else {
             return (
-                <div  className="slider-video">
+                <div className="slider-video">
                     <ResponsiveEmbed aspectRatio="16by9">
                         <embed type="image/svg+xml" src={video} />
                     </ResponsiveEmbed>
                 </div>
-               
             )
         }
     };
@@ -58,7 +57,7 @@ class Slider extends Component {
                                             {description}
                                         </div>
 
-                                        <div className="footer">
+                                        <div className="slider-footer">
                                             <a href={link} className="btn-icon btn-round btn-github">
                                                 <i className="fab fa-github"></i>
                                             </a>
