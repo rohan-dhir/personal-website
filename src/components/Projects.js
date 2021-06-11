@@ -33,7 +33,7 @@ const Projects = () => {
                             />
                         ))}
                     </div>
-                    <div className="container">
+                    <div className="container-fluid">
                         <h2 className="slider-title">iOS & Android Games</h2>
                             <Slider />
                         <div className="row">

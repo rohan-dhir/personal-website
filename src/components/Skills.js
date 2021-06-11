@@ -11,7 +11,7 @@ const Skills = () => {
             
             <img alt="..." className="path4" src={bg4} />
 
-            <div className="container-fluid">
+            <div className="container">
                 <div className="row">
                     <div className="ml-auto mr-auto col-md-8">
                         <div className="section-description text-center">

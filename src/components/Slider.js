@@ -1,5 +1,5 @@
-import React, { createRef, Component } from 'react'
-import { Carousel } from 'react-bootstrap';
+import React, { Component } from 'react'
+import { Carousel, ResponsiveEmbed, Image } from 'react-bootstrap';
 import  './styles/Projects.css';
 import { SliderList } from '../data/DataLists';
 
@@ -7,18 +7,15 @@ class Slider extends Component {
     
     displayElement = (video, image) => {
         if(video === "") {
-            return <img alt="..." src={image} />
+            return <Image src={image} fluid />
         } else {
             return (
-                <iframe 
-                    width="640" 
-                    height="360" 
-                    src={video} 
-                    title="YouTube video player" 
-                    frameBorder="0" 
-                    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                    allowFullScreen 
-                />
+                <div  className="slider-video">
+                    <ResponsiveEmbed aspectRatio="16by9">
+                        <embed type="image/svg+xml" src={video} />
+                    </ResponsiveEmbed>
+                </div>
+               
             )
         }
     };
@@ -42,13 +39,12 @@ class Slider extends Component {
                         interval={4000}
                     >
                             <div className="row">
-                                <div className="col-md-5">
-                                    <h3 className="title">{title}</h3>
+                                <div className="col-md-8">
+                                    <h3 className="slider-subtitle">{title}</h3>
                                     {this.displayElement(video, image)}
                                     </div>
 
-                                <div className="col-md-2" />
-                                <div className="col-md-5">
+                                <div className="col-lg-4">
                                     <div className="wrapper">
                                         <div className="slider-info">
                                             <strong>Launched: </strong>
