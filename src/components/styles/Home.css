@@ -1,0 +1,76 @@
+.presentation-page .page-header {
+    height: 100vh;
+}
+
+.page-header {
+    min-height: 100vh;
+    max-height: 999px;
+    padding: 0;
+    color:#fff;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.bi {
+    margin: 30px 40px 0px;
+    transition: transform .3s;
+}
+
+.bi:hover {
+    color:#01b159;
+    cursor: pointer;
+    transform: scale(1.15);
+    text-decoration: none;
+}
+
+.brand {
+    position: absolute;
+    top:50%;
+    left:50%;
+    z-index: 2;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color:#fff;
+    padding: 0 15px;
+}
+
+.h1 {
+    line-height: 1.05;
+    margin-bottom: 30px;
+    font-size: 5em;
+}
+
+.image {
+    display: table; 
+    margin: 50px auto;
+    border: 2px solid #01b159;
+    border-radius: 50%;
+    height: 180px;
+    width: 180px;
+}
+
+.path {
+    position: absolute;
+    opacity: .02;
+    max-width: 75%;
+    right: 0;
+    top: 20px;
+
+}
+
+.path2 {
+    position: absolute;
+    opacity: .02;
+    max-width: 60%;
+    right: -80px;
+    top: -30px;
+    transform: scaleX(-1);
+}
+
+.profile {
+    display: table;
+    border-radius: 50%;
+    max-width: 100%;
+}

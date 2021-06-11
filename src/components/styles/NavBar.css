@@ -1,0 +1,44 @@
+.bg {
+    background-color: #01b159 !important;
+}
+.container-fluid {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.navbar {
+    padding-right: 25% !important;
+    padding-left: 25% !important;
+    width:100%;
+    transition: all .5s ease 0s;
+}
+
+.navbar .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;..");
+}
+
+.navbar.navbar-transparent {
+    background-color: transparent;
+    padding-top: 25px;
+}
+.nav-item {
+    color:white;
+    padding: 7px; 
+}
+
+.nav-item:hover {
+    color:rgb(148, 147, 147);
+    cursor: pointer;
+    transition: all .3s ease 0s;
+    text-decoration: none;
+}
+
+.nav-item > .active {
+    border-bottom: 1px solid white;
+}
+
+#toggle {
+    color:hsla(0,0%,100%,.8) !important;
+}
