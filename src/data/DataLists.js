@@ -3,6 +3,7 @@ import image from '../imgs/test.png';
 import image2 from '../imgs/test2.png';
 
 import proj1 from '../imgs/sortingVisualizer_Proj.png';
+import proj2 from '../imgs/title_proj.png';
 import proj3 from '../imgs/personalSite_Proj.png';
 import proj4 from '../imgs/socialNetwork_Proj.png';
 import proj6 from '../imgs/flood_Proj.png';
@@ -26,7 +27,7 @@ export const ProjectList = [
         id: 2, 
         title: "Product Title Parser", 
         content:"A Java application that parses extraneous details from an input. Ideal for e-commerce.", 
-        pic: image2,
+        pic: proj2,
         onClick:"https://github.com/rohan-dhir/TitleParser-App"
     },
 
@@ -51,7 +52,7 @@ export const ProjectList = [
         title: "iOS & Android Games", 
         content:"Built a variety of 2D and 3D mobile games using Objective-C and C#.", 
         pic: image,
-        onClick:"/projects"
+        onClick:"/"
     },
 
     {
@@ -74,21 +75,21 @@ export const SkillList = [
     {
         id: 2, 
         title: "Technical Skills", 
-        description: "Java · C# · Python 3 · JavaScript (ES6) · HTML5 · CSS3 · PHP · jQuery · React/Redux · Node.js · GraphQL · SQL MongoDB · Git · Agile (Scrum)", 
+        description: "Java · C# · Python 3 · JavaScript (ES6) · HTML5 · CSS3 · PHP · jQuery · React/Redux · Node.js · GraphQL · SQL · MongoDB · Git · Agile (Scrum)", 
         icon:logo2
     },
 
     {
         id: 3, 
         title: "Interests", 
-        description: "Aside from coding, I enjoy photography.", 
+        description: "Aside from coding, I am a hobbyist photographer and enjoy capturing portraits and landscapes during my travels.", 
         icon:logo3
     },
 
     {
         id: 4, 
         title: "Bilingual", 
-        description: "Able to speak Hindi at a conversational level.", 
+        description: "Able to speak Hindi at a professional working proficiency.", 
         icon:logo4
     }
 ];
@@ -99,7 +100,7 @@ export const SliderList = [
         title: "Hostile Moon",
         launched: "2017",
         downloads: "50+",
-        description: "Some Description here Some Description here Some Description here Some Description here Some Description here",
+        description: "A game with multiple modes where a lone player must defeat a near endless amount of enemies and cross more than 100 levels. Developed using Unity and Autodesk Maya for 3D modelling. Written in C#.",
         video: "https://www.youtube.com/embed/cucYpb_MY9M?autoplay=1&mute=1",
         image: "",
         link: ""
@@ -110,7 +111,7 @@ export const SliderList = [
         title: "Leaping Ball",
         launched: "2017",
         downloads: "10+",
-        description: "Some Description here",
+        description: "My first 3D game! A game in which a user must tap the screen to bounce the ball between the walls to maintain speed while avoiding obstacles. 3D models developed with Unity and Autodesk Maya, written in C#.",
         video: "",
         image: image,
         link: ""
@@ -121,9 +122,9 @@ export const SliderList = [
         title: "Drop of Faith",
         launched: "2015",
         downloads: "3.5k",
-        description: "Some Description here",
-        video: "",
-        image: image2,
+        description: "My first 2D game! An 'endless runner' style game where the user must dodge obstacles by rotating the device left or right to control the player. Developed with Xcode, written in Objective-C. Adobe Photoshop was used for 2D sprites.",
+        video: "https://www.youtube.com/embed/6ccQvSVp5dA?autoplay=1&mute=1",
+        image: "",
         link: ""
     },
 
@@ -132,7 +133,7 @@ export const SliderList = [
         title: "Rocket Blast!",
         launched: "2015",
         downloads: "10+",
-        description: "Some Description here",
+        description: "Another 2D endless game written in Objective-C. Utilized many of the same assets from the first game to save on development time.",
         video: "",
         image: image,
         link: ""

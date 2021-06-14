@@ -195,7 +195,7 @@
   font-weight: 300;
 }
 
-.slider-img {
+.slider-media {
   max-width: 660px;
   width: auto;
   height: auto;
@@ -216,12 +216,6 @@
   font-weight: 600;
   color: hsla(0, 0%, 100%, 0.8);
   text-align: left;
-}
-
-.slider-video {
-  max-width: 660px;
-  width: auto;
-  height: auto;
 }
 
 .title {
