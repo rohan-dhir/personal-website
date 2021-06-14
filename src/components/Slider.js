@@ -7,10 +7,15 @@ class Slider extends Component {
     
     displayElement = (video, image) => {
         if(video === "") {
-            return <Image src={image} fluid />
+            return (
+                <div className="slider-media">
+            <Image src={image} fluid />
+            </div>
+            );
+
         } else {
             return (
-                <div className="slider-video">
+                <div className="slider-media">
                     <ResponsiveEmbed aspectRatio="16by9">
                         <embed type="image/svg+xml" src={video} />
                     </ResponsiveEmbed>
