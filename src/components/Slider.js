@@ -40,7 +40,7 @@ class Slider extends Component {
                     <Carousel.Item
                         className="carousel"
                         key={id}
-                        interval={4000}
+                        interval={7000}
                     >
                             <div className="row">
                                 <div className="col-md-8">

@@ -1,11 +1,9 @@
 //ProjectList Images
-import image from '../imgs/test.png';
-import image2 from '../imgs/test2.png';
-
 import proj1 from '../imgs/sortingVisualizer_Proj.png';
 import proj2 from '../imgs/title_proj.png';
 import proj3 from '../imgs/personalSite_Proj.png';
 import proj4 from '../imgs/socialNetwork_Proj.png';
+import proj5 from '../imgs/game_Proj.png';
 import proj6 from '../imgs/flood_Proj.png';
 
 //SkillList Icons
@@ -13,6 +11,10 @@ import logo from '../imgs/RU-logo.png';
 import logo2 from '../imgs/reactLogo.png';
 import logo3 from '../imgs/camera.png';
 import logo4 from '../imgs/bilingual.png';
+
+//iOS & Android Game Images
+import game2 from '../imgs/leapingBall.png';
+import game4 from '../imgs/rocketBlast.png';
 
 export const ProjectList = [
     {
@@ -51,7 +53,7 @@ export const ProjectList = [
         id: 5, 
         title: "iOS & Android Games", 
         content:"Built a variety of 2D and 3D mobile games using Objective-C and C#.", 
-        pic: image,
+        pic: proj5,
         onClick:"/"
     },
 
@@ -68,7 +70,7 @@ export const SkillList = [
     {
         id: 1, 
         title:"Bachelor of Science (Honours) - Computer Science", 
-        description: "Studied Computer Science at Ryerson University in Toronto. Graduated in April 2021. Relevant Courses: Data Structures, Algorithms, and Operating Systems. GPA: 3.0", 
+        description: "Studied Computer Science at Ryerson University in Toronto. Graduated in April 2021. Relevant Courses: Data Structures, Algorithms, and Operating Systems. Minor in Economics.", 
         icon:logo
     },
 
@@ -113,7 +115,7 @@ export const SliderList = [
         downloads: "10+",
         description: "My first 3D game! A game in which a user must tap the screen to bounce the ball between the walls to maintain speed while avoiding obstacles. 3D models developed with Unity and Autodesk Maya, written in C#.",
         video: "",
-        image: image,
+        image: game2,
         link: ""
     },
 
@@ -135,7 +137,7 @@ export const SliderList = [
         downloads: "10+",
         description: "Another 2D endless game written in Objective-C. Utilized many of the same assets from the first game to save on development time.",
         video: "",
-        image: image,
+        image: game4,
         link: ""
     },
 ];

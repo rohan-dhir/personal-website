@@ -17,7 +17,6 @@ const Skills = () => {
                         <div className="section-description text-center">
                             <h2 className="title">About Me</h2>
                             <p className="description">I am passionate about coding. I love sorting algorithms and try to keep up with the latest in software development.</p>
-                            <a className="btn-round btn btn-primary" href="https://github.com/rohan-dhir">View Résumé</a>
                         </div>
                     </div>
                 </div>
