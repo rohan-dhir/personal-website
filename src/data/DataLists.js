@@ -22,7 +22,7 @@ export const ProjectList = [
         title: "Sorting Visualizer", 
         content:"A React App that visualizes sorting algorithms.", 
         pic: proj1,
-        onClick:"https://github.com/rohan-dhir/Sorting-Visualizer"
+        onClick:"https://sorting-visualizer-rohan.netlify.app"
     },
 
     {
@@ -62,7 +62,7 @@ export const ProjectList = [
         title: "Flood! (React)", 
         content:"A short game based on the popular title 'Flood It!'", 
         pic: proj6,
-        onClick:"https://github.com/rohan-dhir/Flood-React"
+        onClick:"https://flood-react-rohan.netlify.app"
     },
 ];
 
