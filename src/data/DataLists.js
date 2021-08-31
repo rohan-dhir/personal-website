@@ -28,9 +28,9 @@ export const ProjectList = [
     {
         id: 2, 
         title: "Product Title Parser", 
-        content:"A Java application that parses extraneous details from an input. Ideal for e-commerce.", 
+        content:"A React App that parses extraneous details from text input. Ideal for e-commerce.", 
         pic: proj2,
-        onClick:"https://github.com/rohan-dhir/TitleParser-App"
+        onClick:"https://parsing-tool-react.netlify.app/"
     },
 
     {
