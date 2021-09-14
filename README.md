@@ -1,6 +1,6 @@
 # Personal Website
 
-This is my personal website designed to showcase my talent. 
+This is my personal website designed to showcase my talent. This website is published through Netlify.
 
 ## Developed Using
 
