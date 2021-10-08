@@ -1,0 +1,55 @@
+.btn {
+    color: hsla(0, 0%, 100%, 0.8) !important;
+}
+
+.nav-bg {
+    background-color: hsla(0, 0%, 100%, 0.8) !important;
+}
+
+.page-header {
+    display: flex;
+    align-items: center;
+}
+
+.profile-title {
+    color: hsla(0,0%,100%,.8);
+    top: 110px;
+    left: 60px;
+}
+
+.profile-description {
+    max-width: 450px;
+    font-size: .875rem;
+    line-height: 26px;
+    color: #9a9a9a;
+}
+
+.profile-downloads {
+    font-size: 0.9rem;
+    color: hsla(0, 0%, 100%, 0.8);
+}
+
+.pt-3 {
+    padding-top: 1rem !important;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.section {
+    margin-top: 50px;
+    padding: 70px 0;
+    position: relative;
+}
+
+.text-left {
+    text-align: left !important;
+}
+
+.wrapper-games {
+    margin-top: 100px;
+}

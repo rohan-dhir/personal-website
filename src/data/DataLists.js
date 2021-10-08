@@ -54,7 +54,7 @@ export const ProjectList = [
         title: "iOS & Android Games", 
         content:"Built a variety of 2D and 3D mobile games using Objective-C and C#.", 
         pic: proj5,
-        onClick:"/"
+        onClick:"/mobilegames"
     },
 
     {
@@ -105,7 +105,7 @@ export const SliderList = [
         description: "A game with multiple modes where a lone player must defeat a near endless amount of enemies and cross more than 100 levels. Developed using Unity and Autodesk Maya for 3D modelling. Written in C#.",
         video: "https://www.youtube.com/embed/cucYpb_MY9M?autoplay=1&mute=1",
         image: "",
-        link: ""
+        link: "https://play.google.com/store/apps/details?id=com.RohanDhir.HostileMoon"
     },
 
     {
@@ -123,7 +123,7 @@ export const SliderList = [
         id: 3,
         title: "Drop of Faith",
         launched: "2015",
-        downloads: "3.5k",
+        downloads: "3.5k+",
         description: "My first 2D game! An 'endless runner' style game where the user must dodge obstacles by rotating the device left or right to control the player. Developed with Xcode, written in Objective-C. Adobe Photoshop was used for 2D sprites.",
         video: "https://www.youtube.com/embed/6ccQvSVp5dA?autoplay=1&mute=1",
         image: "",

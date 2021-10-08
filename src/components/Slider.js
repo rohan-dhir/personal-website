@@ -34,8 +34,7 @@ class Slider extends Component {
                     downloads, 
                     description, 
                     video, 
-                    image, 
-                    link 
+                    image
                 }) => (
                     <Carousel.Item
                         className="carousel"
@@ -62,11 +61,7 @@ class Slider extends Component {
                                             {description}
                                         </div>
 
-                                        <div className="slider-footer">
-                                            <a href={link} className="btn-icon btn-round btn-github">
-                                                <i className="fab fa-github"></i>
-                                            </a>
-                                        </div>
+                                        
                                     </div>
                                 </div>
                             </div>
