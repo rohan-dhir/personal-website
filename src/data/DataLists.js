@@ -100,7 +100,6 @@ export const SliderList = [
     {
         id: 1,
         title: "Hostile Moon",
-        launched: "2017",
         downloads: "50+",
         description: "A game with multiple modes where a lone player must defeat a near endless amount of enemies and cross more than 100 levels. Developed using Unity and Autodesk Maya for 3D modelling. Written in C#.",
         video: "https://www.youtube.com/embed/cucYpb_MY9M?autoplay=1&mute=1",
@@ -111,7 +110,6 @@ export const SliderList = [
     {
         id: 2,
         title: "Leaping Ball",
-        launched: "2017",
         downloads: "10+",
         description: "My first 3D game! A game in which a user must tap the screen to bounce the ball between the walls to maintain speed while avoiding obstacles. 3D models developed with Unity and Autodesk Maya, written in C#.",
         video: "",
@@ -122,7 +120,6 @@ export const SliderList = [
     {
         id: 3,
         title: "Drop of Faith",
-        launched: "2015",
         downloads: "3.5k+",
         description: "My first 2D game! An 'endless runner' style game where the user must dodge obstacles by rotating the device left or right to control the player. Developed with Xcode, written in Objective-C. Adobe Photoshop was used for 2D sprites.",
         video: "https://www.youtube.com/embed/6ccQvSVp5dA?autoplay=1&mute=1",
@@ -133,7 +130,6 @@ export const SliderList = [
     {
         id: 4,
         title: "Rocket Blast!",
-        launched: "2015",
         downloads: "10+",
         description: "Another 2D endless game written in Objective-C. Utilized many of the same assets from the first game to save on development time.",
         video: "",

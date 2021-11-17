@@ -29,8 +29,7 @@ class Slider extends Component {
             <Carousel>
                 {SliderList.map(({ 
                     id, 
-                    title, 
-                    launched, 
+                    title,  
                     downloads, 
                     description, 
                     video, 
@@ -50,9 +49,6 @@ class Slider extends Component {
                                 <div className="col-lg-4">
                                     <div className="wrapper">
                                         <div className="slider-info">
-                                            <strong>Launched: </strong>
-                                            {launched}
-                                            <br />
                                             <strong>Downloads: </strong>
                                             {downloads}
                                         </div>
