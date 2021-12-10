@@ -114,7 +114,7 @@ export const SliderList = [
         description: "My first 3D game! A game in which a user must tap the screen to bounce the ball between the walls to maintain speed while avoiding obstacles. 3D models developed with Unity and Autodesk Maya, written in C#.",
         video: "",
         image: game2,
-        link: ""
+        link: "https://play.google.com/store/apps/details?id=com.RohanDhir.LeapingBall"
     },
 
     {
