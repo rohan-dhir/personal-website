@@ -6,6 +6,10 @@ import proj4 from '../imgs/socialNetwork_Proj.png';
 import proj5 from '../imgs/game_Proj.png';
 import proj6 from '../imgs/flood_Proj.png';
 
+//ExperienceList Icons
+import exp1 from '../imgs/Scotiabank-logo.png';
+import exp2 from '../imgs/GameDev-logo.png';
+
 //SkillList Icons
 import logo from '../imgs/RU-logo.png';
 import logo2 from '../imgs/reactLogo.png';
@@ -22,7 +26,8 @@ export const ProjectList = [
         title: "Sorting Visualizer", 
         content:"A React App that visualizes sorting algorithms.", 
         pic: proj1,
-        onClick:"https://sorting-visualizer-rohan.netlify.app"
+        gitHub:"https://github.com/rohan-dhir/Sorting-Visualizer",
+        demo:"https://sorting-visualizer-rohan.netlify.app"
     },
 
     {
@@ -30,7 +35,8 @@ export const ProjectList = [
         title: "Product Title Parser", 
         content:"A React App that parses extraneous details from text input. Ideal for e-commerce.", 
         pic: proj2,
-        onClick:"https://parsing-tool-react.netlify.app/"
+        gitHub:"https://github.com/rohan-dhir/parsing-tool-react",
+        demo:"https://parsing-tool-react.netlify.app/"
     },
 
     {
@@ -38,15 +44,17 @@ export const ProjectList = [
         title: "Personal Website", 
         content:"This website! Built with React :)", 
         pic: proj3,
-        onClick:"/"
+        gitHub:"https://github.com/rohan-dhir/personal-website",
+        demo:""
     },
 
     {
         id: 4, 
-        title: "Social Networking Site", 
-        content:"A PHP site to post, like and follow others. Uses MySQL as the database.", 
-        pic: proj4,
-        onClick:"https://github.com/rohan-dhir/Logr"
+        title: "Flood! (React)", 
+        content:"A short game based on the popular title 'Flood It!'", 
+        pic: proj6,
+        gitHub:"https://github.com/rohan-dhir/Flood-React",
+        demo:"https://flood-react-rohan.netlify.app"
     },
 
     {
@@ -54,16 +62,41 @@ export const ProjectList = [
         title: "iOS & Android Games", 
         content:"Built a variety of 2D and 3D mobile games using Objective-C and C#.", 
         pic: proj5,
-        onClick:"/mobilegames"
+        gitHub:"",
+        demo:"/mobilegames"
+    },
+    
+    {
+        id: 6, 
+        title: "Social Networking Site", 
+        content:"A PHP site to post, like and follow others. Uses MySQL as the database.", 
+        pic: proj4,
+        gitHub:"https://github.com/rohan-dhir/Logr",
+        demo:""
+    },
+];
+
+export const ExperienceList = [
+    {
+        id: 1, 
+        title:"QA Analyst - High Value Payments Scotiabank", 
+        description: "March 2022 - Present", 
+        icon:exp1
     },
 
     {
-        id: 6, 
-        title: "Flood! (React)", 
-        content:"A short game based on the popular title 'Flood It!'", 
-        pic: proj6,
-        onClick:"https://flood-react-rohan.netlify.app"
+        id: 2, 
+        title:"Freelance Front-End Web Developer", 
+        description: "January 2018 - April 2021", 
+        icon:logo2
     },
+
+    {
+        id: 3, 
+        title: "Freelance iOS & Android Game Developer", 
+        description: "February 2014 - November 2017", 
+        icon:exp2
+    }
 ];
 
 export const SkillList = [

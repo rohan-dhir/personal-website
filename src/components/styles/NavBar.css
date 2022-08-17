@@ -1,44 +1,50 @@
-.bg {
-    background-color: #01b159 !important;
-}
-.container-fluid {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-}
-.navbar {
-    padding-right: 25% !important;
-    padding-left: 25% !important;
-    width:100%;
-    transition: all .5s ease 0s;
-}
-
-.navbar .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;..");
+.navigation-bar {
+    background: rgba(0, 0, 0, 0.3) !important;
+    width: max-content !important;
+    display: block !important;
+    padding: 0.7rem 1.7rem !important;
+    z-index: 16 !important;
+    position: fixed !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    bottom: 2rem !important;
+    display: flex !important;
+    gap:0.8rem !important;
+    border-radius: 3rem !important;
+    backdrop-filter: blur(15px) !important;
 }
 
-.navbar.navbar-transparent {
-    background-color: transparent;
-    padding-top: 25px;
-}
-.nav-item {
-    color:white;
-    padding: 7px; 
+.nav-link {
+    background: transparent !important;
+    padding:1.1rem !important;
+    border-radius: 50% !important;
+    display: flex !important;
+    color: hsla(0,0%,100%,.8) !important;
+    font-size: 1.3rem !important;
 }
 
-.nav-item:hover {
-    color:rgb(187, 186, 186);
+.nav-link:hover {
+    background:rgba(0, 0, 0, 0.3) !important;
+    color: #07aadb !important;
     cursor: pointer;
-    transition: all .3s ease 0s;
-    text-decoration: none;
+    transition: all .3s ease 0s !important;
+    text-decoration: none !important;
 }
 
-.nav-item > .active {
-    border-bottom: 1px solid white;
+.nav-link.active{
+    background: #01b159 !important;
+    color: hsla(0,0%,100%,.8) !important;
+    transition: all .3s ease .17s !important;
+    text-decoration: none !important;
 }
 
-#toggle {
-    color:hsla(0,0%,100%,.8) !important;
+@media only screen and (max-width: 389px) {
+    .navigation-bar {
+        width:270px !important;
+        padding: 0.7rem 0rem !important;
+        gap:0.2rem !important;
+    }
+    .nav-link {
+        font-size: 1rem !important;
+    }
 }

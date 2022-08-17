@@ -56,8 +56,6 @@ class Slider extends Component {
                                         <div className="slider-descr">
                                             {description}
                                         </div>
-
-                                        
                                     </div>
                                 </div>
                             </div>

@@ -4,7 +4,6 @@
 
 .page-header {
     min-height: 100vh;
-    max-height: 999px;
     padding: 0;
     color:#fff;
     position: relative;
@@ -36,15 +35,37 @@
     padding: 0 15px;
 }
 
-.footer {
-    padding: 1.125rem;
+footer {
+    padding: 3rem 0;
     text-align: center;
-    background: radial-gradient(ellipse at bottom, #01b159 30%, #01743a 80%);
+    background: #01b159;
+    height:20vh;
+    transform: skewY(3.0deg);
+    
 }
 
-.footer-text {
-    
+footer p {
+    transform: skewY(-3.0deg);
     color: #fff;
+    font-size: 16px;
+}
+
+.footer-link {
+    color: rgb(52, 52, 52);
+}
+
+.footer-link:hover {
+    color: rgb(182, 182, 182);
+    cursor: pointer;
+    transform: scale(1.01);
+    transition: 0.3s ease;
+    text-decoration: none;
+}
+
+.bottom-filler {
+    margin-top: -100px;
+    height: 25vh;
+    background: #01b159;
 }
 
 .h1 {
@@ -80,8 +101,31 @@
     transform: scaleX(-1);
 }
 
+.permalinks {
+    list-style: none;
+    font-size: 18px;
+    transform: skewY(-3.0deg);
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin: 0 auto 3rem;
+}
+
 .profile {
     display: table;
     border-radius: 50%;
     max-width: 100%;
+}
+
+@media only screen and (max-width: 680px) {
+    .bottom-filler {
+        height: 35vh;
+    }
+}
+
+@media only screen and (max-width: 380px) {
+    .bottom-filler {
+        height: 45vh;
+    }
 }

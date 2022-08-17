@@ -1,7 +1,7 @@
 import React from 'react'
 import './styles/Projects.css';
 import Card from './Card';
-import Slider from './Slider';
+
 import { ProjectList } from '../data/DataLists';
 import bg3 from '../imgs/bg3-github.png';
 
@@ -15,7 +15,7 @@ const Projects = () => {
                     <div className="section-description text-center">
                         <h2 className="title">Featured Projects</h2>
                         <p className="description">The following are some of my favourite projects that I've enjoyed working on. Click below to view the rest on my GitHub!</p>
-                        <a className="btn-round btn btn-primary" href="https://github.com/rohan-dhir">View on GitHub</a>
+                        <a className="btn-round btn btn-primary" href="https://github.com/rohan-dhir">View GitHub</a>
                     </div>
                 </div>
             </div>
@@ -23,21 +23,16 @@ const Projects = () => {
             <div className="container-fluid">
                 <div className="section-cols">
                     <div className="mt-5 row">
-                        {ProjectList.map(({id, title, content, pic, onClick}) => (
+                        {ProjectList.map(({id, title, content, pic, gitHub, demo}) => (
                             <Card 
                                 key={id}
                                 title={title}
                                 content={content}
                                 pic={pic}
-                                onClick={onClick}
+                                gitHub={gitHub}
+                                demo={demo}
                             />
                         ))}
-                    </div>
-                    <div className="container-fluid">
-                        <h2 className="slider-title">iOS & Android Games</h2>
-                            <Slider />
-                        <div className="row">
-                        </div>
                     </div>
                 </div>
             </div>

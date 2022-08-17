@@ -4,8 +4,8 @@ import Home from '../components/Home';
 import Projects from '../components/Projects';
 import Skills from '../components/Skills';
 import Contact from '../components/Contact';
+import Experience from '../components/Experience'
 import Footer from '../components/Footer';
-
 
 const Main = () => {
     return (
@@ -14,6 +14,7 @@ const Main = () => {
         
         <div className="wrapper">
             <Home />
+            <Experience />
             <Projects />
             <Skills />
             <Contact />
