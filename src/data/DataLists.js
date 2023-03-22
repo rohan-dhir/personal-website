@@ -2,7 +2,7 @@
 import proj1 from '../imgs/sortingVisualizer_Proj.png';
 import proj2 from '../imgs/title_proj.png';
 import proj3 from '../imgs/personalSite_Proj.png';
-import proj4 from '../imgs/socialNetwork_Proj.png';
+import proj4 from '../imgs/penAI_Proj.png';
 import proj5 from '../imgs/game_Proj.png';
 import proj6 from '../imgs/flood_Proj.png';
 
@@ -32,6 +32,15 @@ export const ProjectList = [
 
     {
         id: 2, 
+        title: "AI Enhanced Rich Text Editor", 
+        content:"A Rich Text Editor that intelligently suggests sentence completions. Makes use of the OpenAI API.", 
+        pic: proj4,
+        gitHub:"https://github.com/rohan-dhir/Pen-AI",
+        demo:"https://pen-ai.netlify.app/"
+    },
+
+    {
+        id: 3, 
         title: "Product Title Parser", 
         content:"A React App that parses extraneous details from text input. Ideal for e-commerce.", 
         pic: proj2,
@@ -40,21 +49,12 @@ export const ProjectList = [
     },
 
     {
-        id: 3, 
+        id: 4, 
         title: "Personal Website", 
         content:"This website! Built with React :)", 
         pic: proj3,
         gitHub:"https://github.com/rohan-dhir/personal-website",
         demo:""
-    },
-
-    {
-        id: 4, 
-        title: "Flood! (React)", 
-        content:"A short game based on the popular title 'Flood It!'", 
-        pic: proj6,
-        gitHub:"https://github.com/rohan-dhir/Flood-React",
-        demo:"https://flood-react-rohan.netlify.app"
     },
 
     {
@@ -65,14 +65,14 @@ export const ProjectList = [
         gitHub:"",
         demo:"/mobilegames"
     },
-    
+
     {
         id: 6, 
-        title: "Social Networking Site", 
-        content:"A PHP site to post, like and follow others. Uses MySQL as the database.", 
-        pic: proj4,
-        gitHub:"https://github.com/rohan-dhir/Logr",
-        demo:""
+        title: "Flood! (React)", 
+        content:"A short game based on the popular title 'Flood It!'", 
+        pic: proj6,
+        gitHub:"https://github.com/rohan-dhir/Flood-React",
+        demo:"https://flood-react-rohan.netlify.app"
     },
 ];
 

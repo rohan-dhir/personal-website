@@ -70,7 +70,7 @@ const Footer = () =>{
                     to="contact"
                     spy={true}
                     smooth={true}
-                    offset={-70}
+                    offset={50}
                     duration={500}
                     >
                         Contact 
@@ -78,7 +78,7 @@ const Footer = () =>{
                 </li>
             </ul>
             <div className="container">
-                <p>© 2022 Rohan Dhir. All trademarks are properties of their respective owners.</p>
+                <p>© 2023 Rohan Dhir. All trademarks are properties of their respective owners.</p>
             </div>
         </footer>
         <div className="bottom-filler">
