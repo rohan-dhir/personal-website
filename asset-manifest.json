@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.2523fead.chunk.css",
-    "main.js": "/static/js/main.318c32a9.chunk.js",
-    "main.js.map": "/static/js/main.318c32a9.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.e014a4b8.js",
-    "runtime-main.js.map": "/static/js/runtime-main.e014a4b8.js.map",
-    "static/css/2.4c97ca4f.chunk.css": "/static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.be83cc3f.chunk.js": "/static/js/2.be83cc3f.chunk.js",
-    "static/js/2.be83cc3f.chunk.js.map": "/static/js/2.be83cc3f.chunk.js.map",
+    "main.css": "/static/css/main.c4454b4d.chunk.css",
+    "main.js": "/static/js/main.992282ab.chunk.js",
+    "main.js.map": "/static/js/main.992282ab.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a55164ca.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a55164ca.js.map",
+    "static/css/2.44d809a4.chunk.css": "/static/css/2.44d809a4.chunk.css",
+    "static/js/2.b3fddcce.chunk.js": "/static/js/2.b3fddcce.chunk.js",
+    "static/js/2.b3fddcce.chunk.js.map": "/static/js/2.b3fddcce.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/2.4c97ca4f.chunk.css.map": "/static/css/2.4c97ca4f.chunk.css.map",
-    "static/css/main.2523fead.chunk.css.map": "/static/css/main.2523fead.chunk.css.map",
-    "static/js/2.be83cc3f.chunk.js.LICENSE.txt": "/static/js/2.be83cc3f.chunk.js.LICENSE.txt",
+    "static/css/2.44d809a4.chunk.css.map": "/static/css/2.44d809a4.chunk.css.map",
+    "static/css/main.c4454b4d.chunk.css.map": "/static/css/main.c4454b4d.chunk.css.map",
+    "static/js/2.b3fddcce.chunk.js.LICENSE.txt": "/static/js/2.b3fddcce.chunk.js.LICENSE.txt",
     "static/media/GameDev-logo.479bf33a.png": "/static/media/GameDev-logo.479bf33a.png",
     "static/media/RU-logo.a8834dfa.png": "/static/media/RU-logo.a8834dfa.png",
     "static/media/Scotiabank-logo.8d4d15bb.png": "/static/media/Scotiabank-logo.8d4d15bb.png",
@@ -33,10 +33,10 @@
     "static/media/title_proj.461ab058.png": "/static/media/title_proj.461ab058.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.e014a4b8.js",
-    "static/css/2.4c97ca4f.chunk.css",
-    "static/js/2.be83cc3f.chunk.js",
-    "static/css/main.2523fead.chunk.css",
-    "static/js/main.318c32a9.chunk.js"
+    "static/js/runtime-main.a55164ca.js",
+    "static/css/2.44d809a4.chunk.css",
+    "static/js/2.b3fddcce.chunk.js",
+    "static/css/main.c4454b4d.chunk.css",
+    "static/js/main.992282ab.chunk.js"
   ]
 }
