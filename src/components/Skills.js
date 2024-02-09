@@ -16,7 +16,7 @@ const Skills = () => {
                     <div className="ml-auto mr-auto col-md-8">
                         <div className="section-description text-center">
                             <h2 className="title">More About Me</h2>
-                            <p className="description">I am passionate about coding. I love sorting algorithms and try to keep up with the latest in software development.</p>
+                            <p className="description">I am passionate about coding. I love solving problems and I try to keep up with the latest in software development.</p>
                         </div>
                     </div>
                 </div>

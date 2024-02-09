@@ -21,6 +21,7 @@
     color:#01b159;
     cursor: pointer;
     transform: scale(1.15);
+    transition: 0.3s ease;
     text-decoration: none;
 }
 

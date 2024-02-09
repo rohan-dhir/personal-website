@@ -79,7 +79,7 @@ export const ProjectList = [
 export const ExperienceList = [
     {
         id: 1, 
-        title:"QA Analyst - High Value Payments Scotiabank", 
+        title:"Business Analyst - High Value Payments | Scotiabank", 
         description: "March 2022 - Present", 
         icon:exp1
     },

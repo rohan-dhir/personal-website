@@ -15,8 +15,8 @@ const Contact = () => {
                             <p className="description">Feel free to get in touch with me. I'd love to hear from you!</p>
                         
                             <svg 
-                                width="75" 
-                                height="75" 
+                                width="90" 
+                                height="90" 
                                 fill="currentColor" 
                                 className="bi bi-envelope mailto" 
                                 viewBox="0 0 16 16" 
@@ -29,8 +29,8 @@ const Contact = () => {
                             </svg>
                             
                             <svg 
-                                width="75" 
-                                height="75" 
+                                width="85" 
+                                height="85" 
                                 fill="currentColor" 
                                 className="bi bi-linkedin" 
                                 viewBox="0 0 16 16" 

@@ -78,7 +78,7 @@ const Footer = () =>{
                 </li>
             </ul>
             <div className="container">
-                <p>© 2023 Rohan Dhir. All trademarks are properties of their respective owners.</p>
+                <p>© 2024 Rohan Dhir. All trademarks are properties of their respective owners.</p>
             </div>
         </footer>
         <div className="bottom-filler">
